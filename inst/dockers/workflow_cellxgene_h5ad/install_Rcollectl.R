@@ -10,4 +10,4 @@ BiocManager::install("vjcitn/Rcollectl")
 BiocManager::install("mtmorgan/zellkonverter", ref = "include-native-dimnames")
 
 # Install workflow vignette
-BiocManager::install("yubocheng/Rcollectlworkflowh5ad", build_vignettes = TRUE)
+BiocManager::install("yubocheng/Rcollectlworkflowh5adtest", build_vignettes = TRUE)
