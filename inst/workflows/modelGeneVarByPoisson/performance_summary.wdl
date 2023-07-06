@@ -18,7 +18,7 @@ task Rcollectl_h5ad_summary {
     }
 
     runtime {
-        docker: "ycheng2022/bioconductor_docker_workflow_h5ad_summary:devel"
+        docker: "ycheng2022/bioconductor_docker_workflow_h5ad_summary_test:devel"
         memory: mem_gb + "GB"
         cpu: 3
     }

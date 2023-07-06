@@ -21,7 +21,7 @@ task Rcollectl_cellxgene_h5ad {
     }
 
     runtime {
-        docker: "ycheng2022/bioconductor_docker_workflow_cellxgene_h5ad:devel"
+        docker: "ycheng2022/bioconductor_docker_workflow_cellxgene_h5ad_test:devel"
         memory: mem_gb + "GB"
         cpu: core
     }
